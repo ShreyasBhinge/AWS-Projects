@@ -48,3 +48,14 @@ c. Database password: intel123
 8. apt-add-repository -y PPa:ondrej/php 
 ----> to add the repository into ubuntu instance which enables us to install the requrired php version
 9. apt install php5.6 mysql-client php5.6-mysqli -y
+ ## Create MySQL Database
+ Use below commands
+ 1. mysql -h <endpoint> -u <username> -p
+ 2. show databases;
+ 3.  use intel; --> Change Database
+ 4.  show tables; --> It will show empty table
+ 5.   create table data (firstname varchar(50),email varchar(50)); --> to create a table
+ 6.   insert into data(firstname, email) values ('shreyas','shreyasbhinge007@gmail.com');
+ 7.   select * from data;
+    ![image](https://github.com/user-attachments/assets/fb546e06-0b9d-4542-80b6-c78862836968)
+

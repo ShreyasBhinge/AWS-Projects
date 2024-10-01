@@ -33,3 +33,18 @@ c. Database password: intel123
 7. Allow all-traffic to EC2 instance
 
    ![Screenshot 2024-10-01 105816](https://github.com/user-attachments/assets/9581c749-b5d5-4bc2-8c8c-b438f606e5a2)
+
+ ## Commands used
+ sudo su (to convert into root user)
+apt-get update  (to get latest packages which are installed in ubuntu)
+apt install apache2 -y  (to install web server)
+systemctl status apache2
+cd /var/www/html
+rm index.html
+nano index.php
+---> copy the contents of index.php into the terminal
+---> ctl + s -> to save the file
+---> ctl + x -> exit the editor
+apt-add-repository -y PPa:ondrej/php 
+----> to add the repository into ubuntu instance which enables us to install the requrired php version
+apt install php5.6 mysql-client php5.6-mysqli -y

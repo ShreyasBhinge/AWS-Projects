@@ -50,7 +50,7 @@ c. Database password: intel123
 9. apt install php5.6 mysql-client php5.6-mysqli -y
  ## Create MySQL Database
  Use below commands
- 1. mysql -h <endpoint> -u <username> -p
+ 1. mysql -h endpoint -u username -p
  2. show databases;
  3.  use intel; --> Change Database
  4.  show tables; --> It will show empty table

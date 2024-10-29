@@ -1,4 +1,4 @@
-### Project 2
+# Project 2
 ## Industry: Healthcare
 Problem Statement:
 How to secure patient records online and send it privately to the intended party
